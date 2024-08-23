@@ -54,7 +54,7 @@
             </select>
         </div>
         <fieldset class="grupo">
-            <div class="campo">
+            <div id="check">
                 <label><strong>Selecione qual tecnologia voce utiliza?</strong></label><br>
                 <input type="checkbox" id="tecnologia" name="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
@@ -66,17 +66,19 @@
                 <label for="tecnologia4">JAVA</label>
                 <input type="checkbox" id="tecnologia" name="tecnologia5" value="C">
                 <label for="tecnologia5">C</label>
-
-
+                <input type="checkbox" id="tecnologia" name="tecnologia6" value="C#">
+                <label for="tecnologia6">C#</label>
             </div>
         </fieldset>
-        <div class="conclusao">
-            <br>
-            <label><strong>Conte-me sobre sua experiencia</strong></label>
-            <textarea row="5" style="width: 25em;" id="experiencia" name="experiencia"></textarea>
-        </div>
-        <button type="submit">Concluido</button>
     </form>
-    
+
+   
+
+     <div class="campo">
+            <label><strong>Conte-me sobre sua experiencia:</strong></label>
+            <textarea row="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+        </div>
+        
+        <button class="conclusao" type="submit">Concluido</button>
 </body>
 </html>
